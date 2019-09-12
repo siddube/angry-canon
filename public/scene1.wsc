@@ -1,0 +1,1942 @@
+{
+	"sceneObjects": [
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 5,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/day.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 1400,
+						"y": 700
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "background",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -534.2400000000001,
+				"y": 256.8100000000001
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 5,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/cannon.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 339.44749384942634,
+						"y": 339.44749384942634
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "stock",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -540.9800000000001,
+				"y": 233.32000000000008
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 263.2605509607981,
+						"y": 217.63767695109664
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "cannon",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 5.0600000000000005,
+				"y": 399.74000000000007
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "static",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 5,
+					"autoResize": false,
+					"visible": false,
+					"image": "procedural_square",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 2076.101466215446,
+						"y": 98.07294732317052
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "ground",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 293.61,
+				"y": 300.19500000000005
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 369.52,
+				"y": 299.65500000000003
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone0",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 444.89,
+				"y": 301.82500000000005
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone1",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 520.53,
+				"y": 299.65500000000003
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone2",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 319.65000000000003,
+				"y": 209.055
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone3",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 402.11000000000007,
+				"y": 206.88500000000002
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone4",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 484.5700000000001,
+				"y": 206.88500000000002
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone5",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 367.39000000000004,
+				"y": 109.23499999999996
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone6",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 447.68000000000006,
+				"y": 107.06499999999996
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone7",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 404.2800000000001,
+				"y": 9.414999999999907
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/barrel_side.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 83.69632140261554,
+						"y": 103.22546306322583
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "target_clone8",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -748.3500000000001,
+				"y": -46.13499999999996
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0.5,
+						"angularDamping": 0.2,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 3,
+								"friction": 0.5,
+								"restitution": 0.5,
+								"shapeType": "circle",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/ball.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 50,
+						"y": 50
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "ball",
+			"isTemplate": true,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 0,
+				"y": -320
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 2,
+					"autoResize": false,
+					"visible": true,
+					"image": "procedural_square",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": true,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "vec2 uv = uvAlphaTime.xy;\nvec4 color = vec4(1.5*uv.x,1.5*(1.0-uv.x),0.2,uv.x + 0.0001 < value ? 1.0 : 0.0);\ngl_FragColor = mix(color, vec4(1.0,sin(uvAlphaTime.w*25.0),0.0,1.0), floor(value));",
+					"pixelShaderUniforms": {
+						"value": "float"
+					},
+					"properties": {
+						"value": 0
+					},
+					"size": {
+						"x": 1014.3033193500819,
+						"y": 34.616380183224464
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "powerbar",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onUpdate": "function (data)\n{var sprite = this.getSprite();\n\nif(sprite.value < 1.0 && wade.isMouseDown()) {\n    sprite.value += 0.02;\n    sprite.value = sprite.value > 1.0 ? 1.0 : sprite.value; \n}\n}"
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 411.25000000000017,
+				"y": -96.97999999999998
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "PhysicsObject",
+					"properties": {
+						"bodyType": "dynamic",
+						"bullet": false,
+						"gravityScale": 1,
+						"linearDamping": 0,
+						"angularDamping": 0,
+						"fixedRotation": false,
+						"allowSleeping": true,
+						"active": true,
+						"fixtures": {
+							"0": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							},
+							"isPseudoArray": true,
+							"length": 1,
+							"elementTemplate": {
+								"density": 1,
+								"friction": 0.5,
+								"restitution": 1,
+								"shapeType": "box",
+								"spriteIndex": 0,
+								"isSensor": false,
+								"autoCalculateShape": true,
+								"filter": {
+									"groupIndex": 0,
+									"categoryBits": 1,
+									"maskBits": 65535
+								},
+								"offset": {
+									"x": 0,
+									"y": 0,
+									"ang": 0
+								},
+								"vertices": [
+									{
+										"x": 0,
+										"y": 0
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "img/trump.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "trump",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"properties": {},
+					"size": {
+						"x": 95.83476147052757,
+						"y": 92.93708084249582
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "trump",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onUpdate": "function (data)\n{var height = wade.getScreenHeight() / 2 - 70;\n\nif(this.getPosition().y > height) {\n    wade.clearScene();\n    wade.app.init();\n}\n}"
+			}
+		}
+	],
+	"paths": [],
+	"layers": [
+		null,
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "2d",
+			"useQuadtree": true,
+			"resolutionFactor": 1
+		},
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "webgl",
+			"useQuadtree": true,
+			"resolutionFactor": 1
+		},
+		null,
+		null,
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "2d",
+			"useQuadtree": true,
+			"resolutionFactor": 1
+		}
+	],
+	"minScreenSize": {
+		"x": 1400,
+		"y": 700
+	},
+	"maxScreenSize": {
+		"x": 1400,
+		"y": 700
+	},
+	"orientation": "none",
+	"windowMode": "full",
+	"defaultLayer": 1,
+	"scripts": [
+		"wade.physics.js"
+	]
+}
